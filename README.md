@@ -8,25 +8,30 @@ To perform image transformation such as Translation, Scaling, Shearing, Reflecti
 Anaconda - Python 3.7
 
 ## Algorithm:
-### Step1:
-<br>
 
-### Step2:
-<br>
+### Step 1:
+Import necessary libraries (cv2, numpy, matplotlib) and load the source image.
 
-### Step3:
-<br>
 
-### Step4:
-<br>
+### Step 2:
+Create transformation matrices for translation, rotation, scaling, and shearing using functions like cv2.getRotationMatrix2D().
 
-### Step5:
-<br>
+
+### Step 3:
+Apply the geometric transformations using cv2.warpAffine() for affine transformations and cv2.flip() for reflection.
+
+
+### Step 4:
+Crop the image by selecting a specific rectangular region using NumPy array slicing.
+
+
+### Step 5:
+Display the original and all transformed images with appropriate titles using matplotlib.pyplot.
 
 ## Program:
 ```python
-Developed By:
-Register Number:
+Developed By:Naveenkumar M
+Register Number:212224230183
 i)Image Translation
 # Step 2: Image Translation
 tx, ty = 100, 50  # Translation factors (shift by 100 pixels horizontally and 50 vertically)
